@@ -1,0 +1,21 @@
+model
+size = 10 10 10
+shape = box // sphere
+scale = 0.100
+autoresize = true
+origin = -y
+wireframe = false
+clamp = none
+material lighting = smooth, deform = 4, metalness = 1, roughness = 0.1
+  colors = A:#FC4
+voxels
+---------- ---------- ---------- ---AAAA--- ---AAAA--- ---AAAA--- ---AAAA--- ---------- ---------- ---------- 
+---------- ----AA---- --AAAAAA-- --AAAAAA-- -AAAAAAAA- -AAAAAAAA- --AAAAAA-- --AAAAAA-- ----AA---- ---------- 
+---------- --AAAAAA-- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- --AAAAAA-- ---------- 
+---AAAA--- --AAAAAA-- -AAAAAAAA- AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA -AAAAAAAA- --AAAAAA-- ---AAAA--- 
+---AAAA--- -AAAAAAAA- -AAAAAAAA- AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA -AAAAAAAA- -AAAAAAAA- ---AAAA--- 
+---AAAA--- -AAAAAAAA- -AAAAAAAA- AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA -AAAAAAAA- -AAAAAAAA- ---AAAA--- 
+---AAAA--- --AAAAAA-- -AAAAAAAA- AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA -AAAAAAAA- --AAAAAA-- ---AAAA--- 
+---------- --AAAAAA-- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- --AAAAAA-- ---------- 
+---------- ----AA---- --AAAAAA-- --AAAAAA-- -AAAAAAAA- -AAAAAAAA- --AAAAAA-- --AAAAAA-- ----AA---- ---------- 
+---------- ---------- ---------- ---AAAA--- ---AAAA--- ---AAAA--- ---AAAA--- ---------- ---------- ----------
