@@ -32,7 +32,22 @@
     <meta name="webspace.permissions.content_change_role" content="owner" />
   </head>
   <body>
-    <div id="787groq" contenteditable="" draggable="" style="color: #eca3a3; overflow-y: scroll; background-color: #732727; font-family: sans-serif; transform: translate3d(-561cm, 241cm, 505cm) rotate3d(-0.082, 0.980, 0.183, 3.029rad); "><code>rm build/nft-item-code.fif</code>
+    <div id="787groq" contenteditable="" draggable="" style="color: #eca3a3; overflow-y: scroll; background-color: #732727; font-family: sans-serif; transform: translate3d(-561cm, 241cm, 505cm) rotate3d(-0.082, 0.980, 0.183, 3.029rad); ">
+      <p>rm build/nft-item-code.fif</p>
+      <p>rm build/nft-item-editable-code.fif</p>
+      <p>rm build/nft-collection-code.fif</p>
+      <p>rm build/nft-collection-editable-code.fif</p>
+      <p>rm build/nft-marketplace-code.fif</p>
+      <p>rm build/nft-sale-code.fif</p>
+      <p><br /></p>
+      <p>func -o build/nft-item-code.fif -SPA ../stdlib.fc params.fc op-codes.fc nft-item.fc</p>
+      <p>func -o build/nft-item-editable-code.fif -SPA ../stdlib.fc params.fc op-codes.fc nft-item-editable-DRAFT.fc</p>
+      <p>func -o build/nft-collection-code.fif -SPA ../stdlib.fc params.fc op-codes.fc nft-collection.fc</p>
+      <p>func -o build/nft-collection-editable-code.fif -SPA ../stdlib.fc params.fc op-codes.fc nft-collection-editable.fc</p>
+      <p>func -o build/nft-marketplace-code.fif -SPA ../stdlib.fc op-codes.fc nft-marketplace.fc</p>
+      <p>func -o build/nft-sale-code.fif -SPA ../stdlib.fc op-codes.fc nft-sale.fc</p>
+      <p><br /></p>
+      <p>fift -s build/print-hex.fif</p>
       <p><br /></p>
     </div>
   </body>
