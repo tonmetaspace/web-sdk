@@ -1,7 +1,7 @@
 model
 name = grass
-revision = 8401
-size = 20 40 20
+revision = 8402
+size = 21 40 20
 origin = -y
 shell = Outline 0.25
 material type = toon, lighting = smooth, deform = 1 1
@@ -9,4 +9,4 @@ material type = toon, lighting = smooth, deform = 1 1
 material type = basic, lighting = smooth, roughness = 0, refractionRatio = 1, side = back
   colors = Outline:#000
 voxels
-20(380-420B)
+400-19(20(19B2-)19B401-)20(19B2-)19B-
