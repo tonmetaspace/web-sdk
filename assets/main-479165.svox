@@ -1,0 +1,9 @@
+model
+size = 1
+origin = -y
+
+material lighting = flat
+  map = map, normalmap = normal
+  colors = Cube:#FFF
+voxels
+Cube
