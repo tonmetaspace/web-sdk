@@ -1,0 +1,23 @@
+model
+name = main
+size = 8 2 8
+scale = 0.1
+rotation = 90 0 0
+position = 0 0.5 0
+origin = -y
+shell = Outline 0.0
+material lighting = quad, roughness = 1.0, opacity = 1.0
+  colors = X:#8c8eff
+material lighting = quad, roughness = 1.0, opacity = 1.0
+  colors = Y:#d3d1ff  
+material type = basic, lighting = smooth, roughness = 1, refractionRatio = 0, side = back
+  colors = Outline:#FFF
+voxels
+-XX---XX -XX---XX
+-XX---XX -XX---XX
+YYYY--XX YYYY--XX
+-XX---XX -XX---XX
+YYYY--XX YYYY--XX
+-XX---XX -XX---XX
+-XXXXXXX -XXXXXXX
+--XXXXX- --XXXXX-
